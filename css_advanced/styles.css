@@ -1,0 +1,558 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Source Sans 3", sans-serif;
+  color: white;
+}
+.screen-size {
+  width: 85%;
+  margin: 0 auto;
+}
+@font-face {
+  /* font-family: "Source Sans Pro Light";
+  src: url("fonts/Source Sans Pro Light .otf"); */
+}
+/* Navbar section css begins here */
+.background {
+  background-image: url(Object.png);
+  background-position: center;
+  background-size: cover;
+  height: 165vh;
+  background-repeat: no-repeat;
+}
+
+.NavbarSection {
+  display: flex;
+  background-color: transparent;
+  justify-content: space-between;
+  height: 10vh;
+  padding-top: 2rem;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.display-ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  color: white;
+  font-size: 9px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.NavbarSection img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Navbar section css ends here */
+
+/* Hero section css begins here */
+
+.get-schooled {
+  text-align: center;
+  padding-top: 13rem;
+  color: white;
+  text-align: center;
+}
+.get-schooled h1 {
+  font-size: 6rem;
+  font-weight: 800;
+  letter-spacing: 0.3rem;
+}
+.get-schooled span {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  /* margin-right: 1.7rem; */
+  text-align: center;
+  margin: 0.1rem 1.5rem;
+}
+.get-schooled button {
+  display: block;
+  justify-self: center;
+  font-size: 9px;
+  font-weight: bolder;
+  margin-top: 2rem;
+  padding: 1rem 1.3rem;
+  border-radius: 30px;
+  background-color: #c271ff;
+  border-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+.author {
+  width: 100%;
+  margin: 8rem auto;
+  text-align: center;
+}
+.author h2 {
+  color: white;
+  text-align: center;
+  padding-top: -5.5rem;
+  font-size: 22px;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+}
+.highlighted {
+  color: #c271ff;
+  font-weight: bold;
+}
+.image-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  /* gap: 1rem; */
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.image-section img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.image-section h3 {
+  font-size: 16px;
+  font-family: sans-serif;
+  /* margin-left: 2.5rem; */
+}
+.ok {
+  margin-left: 2rem;
+}
+.stubborn-image {
+  /* margin-right: -0.2rem; */
+}
+.image-section p {
+  font-style: italic;
+  font-size: 14px;
+  text-align: center;
+  width: 90%;
+  padding-left: 2.5rem;
+}
+
+/* Hero section css ends here */
+/* Prensenter section css starts here */
+.presenter-section {
+  width: 100%;
+  background-color: #c271ff;
+  display: flex;
+  height: 65vh;
+  padding-top: 6rem;
+}
+.presenter {
+  /* width: 100%; */
+  object-fit: cover;
+  padding-left: 6rem;
+  margin-right: 4rem;
+}
+.presenter-section blockquote {
+  padding-top: 1.4rem;
+  width: 68%;
+  line-height: 1.5rem;
+  font-size: 17px;
+}
+.presenter-section h3 {
+  padding-top: 1.6rem;
+  font-size: 20px;
+}
+.presenter-section p {
+  font-style: italic;
+  font-size: 16px;
+  padding-top: 0.5rem;
+}
+
+/* Prensenter section css ends here  */
+/* Popular tutorial section css begins here */
+.popular {
+  width: 100%;
+  padding: 5rem;
+}
+.tutorials {
+  display: flex;
+  gap: 0.1rem;
+  /* width: 70%; */
+}
+.tutorials img {
+  width: 100%;
+  object-fit: cover;
+}
+.popular h2 {
+  text-align: center;
+  color: rgba(42, 38, 38, 0.655);
+  font-size: 16px;
+  padding-bottom: 3.5rem;
+  font-weight: lighter;
+}
+.image-tutorial {
+  width: 15rem;
+  height: 6rem;
+}
+.play {
+  width: 0.5;
+  justify-self: center;
+  margin-top: -4rem;
+  margin-left: -3rem;
+}
+.tutorials h3 {
+  padding-top: 3.8rem;
+  font-size: 18px;
+  padding-left: 1rem;
+}
+.tutorials p {
+  padding-top: 1rem;
+  font-size: 14px;
+  line-height: 1.5rem;
+  color: rgba(42, 38, 38, 0.655);
+}
+.small-image {
+  display: flex;
+  width: 3rem;
+  padding-top: 1.2rem;
+}
+.small-image h4 {
+  font-size: 12px;
+  padding-top: 1rem;
+  padding-left: 0.8rem;
+  white-space: nowrap;
+  color: #c271ff;
+}
+.star {
+  display: flex;
+  padding-top: 1rem;
+  font-size: 12px;
+  color: #c271ff;
+  letter-spacing: 0.5rem;
+}
+.star p {
+  font-size: 14px;
+  letter-spacing: 0.07rem;
+  font-weight: bold;
+  margin-top: -1.4rem;
+  margin-left: 3rem;
+  color: #c271ff;
+}
+/* Popular tutorial section css ends here */
+/* Free membership section css starts here */
+
+.free-membership {
+  width: 100%;
+  padding: 7rem;
+  justify-content: center;
+  background-color: rgb(7, 3, 18);
+  height: 67vh;
+}
+.free-membership h2 {
+  text-align: center;
+  margin-top: -4.5rem;
+}
+/* .smile {
+  width: 100%;
+  object-fit: cover;
+} */
+.membership-section {
+  display: flex;
+  align-self: center;
+  margin: 0 auto;
+  width: 80%;
+  /* background-color: aqua; */
+}
+.smile img {
+  /* width: 20%; */
+  /* padding-left: 2rem; */
+  gap: 2rem;
+  padding-top: 2rem;
+}
+.smile h3 {
+  font-size: 14px;
+  padding-top: 1rem;
+  font-weight: 400;
+}
+.smile p {
+  font-size: 13px;
+  font-weight: 300;
+  width: 70%;
+  padding-top: 1rem;
+}
+.free-membership button {
+  color: white;
+  background-color: #c271ff;
+  margin-left: 26rem;
+  margin-top: 4.5rem;
+  font-size: 9px;
+  padding: 1rem 1.3rem;
+  border-radius: 30px;
+  border-color: transparent;
+}
+
+/* Free membership section css ends here */
+/* F.A.Q. section css starts here */
+.FAQ {
+  width: 90%;
+  justify-self: center;
+  margin-top: 3.5rem;
+  padding-left: 8rem;
+  /* margin-left: 12rem; */
+}
+.FAQ h2 {
+  color: rgba(29, 27, 27, 0.819);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: -12rem;
+}
+.FAQ-Section1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: center;
+  align-items: center;
+  column-gap: 10rem;
+
+  /* gap: 3rem; */
+}
+.FAQ-Section1 h3 {
+  padding-top: 2.9rem;
+  font-size: 14px;
+  color: rgba(29, 27, 27, 0.819);
+}
+.FAQ-Section1 p {
+  padding-top: -2.5rem;
+  color: grey;
+  font-size: 12px;
+  width: 65%;
+  line-height: 1.5rem;
+}
+/* F.A.Q. section css ends here */
+/* footer section css starts here */
+.footer-section {
+  width: 100%;
+  background-color: rgb(7, 3, 18);
+  height: 35vh;
+  margin-top: 4rem;
+  /* padding: 90px; */
+}
+.last-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 10rem;
+}
+.last-icon {
+  letter-spacing: 0.4rem;
+  font-size: 1.6rem;
+  /* padding: 10px; */
+  /* height: 20px; */
+  /* width: 20px; */
+  /* border-radius: 50%; */
+  /* margin: 0 10px; */
+  /* background-color: white; */
+}
+.footer-section p {
+  font-size: 12px;
+  justify-self: center;
+  color: grey;
+}
+/* footer section css ends here */
+/* Positioning and Responsiveness */
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1100px) {
+  .background {
+    height: 90vh;
+  }
+}
+
+@media (max-width: 1000px) {
+  .author {
+    width: 80%;
+    /* margin: 8rem auto;
+  text-align: center; */
+  }
+  .presenter-section {
+    padding-top: 2rem;
+    font-size: 10px;
+    height: 50vh;
+    padding-top: -2rem;
+  }
+  .image-section {
+    padding-top: 8rem;
+  }
+  .image-section h3 {
+    font-size: 10px;
+  }
+  .image-section p {
+    font-size: 9px;
+  }
+  .image-section img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding-top: -6rem;
+  }
+  .image-tutorial {
+    width: 10rem;
+    height: 5rem;
+    gap: 1rem;
+  }
+  .small-image h4 {
+    font-size: 9px;
+  }
+  .tutorials p {
+    margin-top: -5rem;
+  }
+  .star {
+    font-size: 8px;
+    margin-top: -1rem;
+  }
+
+  /* .image-section {
+    width: 80%;
+    row-gap: 2rem;
+    padding-top: 2rem;
+    /* padding-left: 2rem; */
+  /* background-color: aqua; */
+}
+.background {
+  height: 165vh;
+}
+@media (max-width: 900px) {
+  .get-schooled h1 {
+    font-size: 4rem;
+  }
+  .image-section {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+  }
+  .group1 p {
+    font-size: 6px;
+    margin-bottom: -1.5rem;
+  }
+  .tutorials p {
+    font-size: 10px;
+    margin-top: -7rem;
+  }
+  .tutorials img {
+    width: 80%;
+  }
+  .image-tutorial {
+    width: 8rem;
+    height: 5rem;
+    gap: 1rem;
+  }
+  .star {
+    font-size: 5px;
+  }
+  .star div p {
+    /* color: red; */
+    font-size: 5px;
+  }
+  .small-image h4 {
+    margin-top: -1.3rem;
+    margin-left: -1rem;
+    font-size: 8px;
+  }
+  .small-image {
+    display: block;
+    width: 2rem;
+  }
+  .free-membership {
+    height: 60vh;
+  }
+  .membership-section {
+    gap: 3rem;
+  }
+  .smile h3 {
+    font-size: 11px;
+    white-space: nowrap;
+  }
+  .smile p {
+    font-size: 9px;
+    width: 100%;
+  }
+  .free-membership button {
+    display: block;
+    justify-self: center;
+    margin-right: 20rem;
+    font-size: 8px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 0.7rem 1.1rem;
+    white-space: nowrap;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .FAQ {
+    margin-top: 1.5rem;
+  }
+  .FAQ-Section1 p {
+    width: 90%;
+    font-size: 10px;
+  }
+  .FAQ-Section1 h3 {
+    margin-top: -1rem;
+  }
+  .footer-section {
+    height: 37vh;
+    margin-top: 2rem;
+  }
+  .image-tutorial {
+    width: 7rem;
+  }
+  .last-section {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+  .last-icon {
+    /* white-space: nowrap; */
+    margin-left: 2.7rem;
+  }
+  .get-schooled h1 {
+    font-size: 5rem;
+  }
+  .presenter-section {
+    height: 45vh;
+  }
+  .presenter-section blockquote {
+    font-size: 12px;
+    line-height: 1.3rem;
+    margin-top: -2rem;
+  }
+  .presenter-section h3 {
+    font-size: 15px;
+    margin-top: -0.6rem;
+  }
+  .presenter-section p {
+    font-size: 13px;
+    margin-top: -0.5rem;
+  }
+  .free-membership {
+    padding: 5rem;
+  }
+  .membership-section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .FAQ-Section1 p {
+  }
+  .popular {
+    padding: 3.5rem;
+  }
+  .image-tutorial {
+    width: 6rem;
+  }
+  .author h2 {
+    margin-top: -5.5rem;
+  }
+}
